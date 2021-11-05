@@ -10,7 +10,10 @@ online version: https://pnp.github.io/powershell/cmdlets/Remove-PnPList.html
 # Remove-PnPList
 
 ## SYNOPSIS
-Deletes a list
+Remove-PnPList deletes a SharePoint list.
+
+> [!IMPORTANT]
+> The command will not delete a list exceeding the list view threshold. Attempts to use the command result in the error, &#8220;The attempted operation is prohibited because it exceeds the list view threshold.&#8221;
 
 ## SYNTAX
 
